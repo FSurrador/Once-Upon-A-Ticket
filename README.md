@@ -15,7 +15,17 @@ The site will have three sections: “Home”, which redirects to the landing pa
 
 ### **What was used**
 
+The website was programmed using HTML, CSS and JavaScript languages, and is located on the dei.uc.pt servers, so that an online version can be made available. The main languages used in its development were HTML, CSS and Javascript, also using the “p5.js”, “jQuery” and “jsPDF” libraries.
+
+p5js: <https://p5js.org/>
+
+jQuery: <https://api.jquery.com/>
+
+jsPDF: <https://github.com/parallax/jsPDF>
+
 ### **How to run**
+
+All the dependencies you need is your functional webcam! You also need to allow Chrome or Safari to know your location in your system preferences.
 
 ### **Contact**
 
