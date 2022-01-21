@@ -11,7 +11,9 @@ The site will have three sections: “Home”, which redirects to the landing pa
 
 ### **What you get**
 
-### [Test the plaftorm](https://student.dei.uc.pt/~surrador/Gerador%20de%20Bilhetes/)
+![picture alt](ticket2.jpeg "Ticket Example")
+
+### [Test the plaftorm here!](https://student.dei.uc.pt/~surrador/Gerador%20de%20Bilhetes/)
 
 ### **What was used**
 
