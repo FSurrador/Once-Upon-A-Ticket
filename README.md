@@ -9,6 +9,10 @@ The site will have three sections: “Home”, which redirects to the landing pa
 
 ### **Context**
 
+This project was developed in the context of the Computational Design Laboratory course of the master’s degree in Design and Multimedia of the Faculty of Sciences and Technology of the University of Coimbra.
+
+Given the challenge of developing a computer design project based on a programmatic approach, from its conceptualization to its implementation and consequent scientific dissemination, I propose a system for generating personalized movie tickets for each user, exploring some themes chosen by the teachers, related with the 2022 edition of the annual International Symposium on Electronic Art (ISEA) event.
+
 ### **What you get**
 
 ![picture alt](ticket2.jpeg "Ticket Example")

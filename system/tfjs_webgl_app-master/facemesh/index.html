@@ -1,0 +1,61 @@
+
+<!doctype html>
+<html lang="en">
+
+<!------------------------------------------------------------------
+        H E A D
+  ------------------------------------------------------------------>
+<head>
+    <title>TensorFlow.js + WebGL Example</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/loading1.css" type="text/css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.4.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-wasm@2.4.0/dist/tf-backend-wasm.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/facemesh@0.0.4"></script>
+
+    <script type="text/javascript" src="../third_party/stats.min.js"></script>
+    <script type="text/javascript" src="../third_party/dat.gui.min.js"></script>
+
+    <script type="text/javascript" src="../common/util_shader.js"></script>
+    <script type="text/javascript" src="../common/util_matrix.js"></script>
+    <script type="text/javascript" src="../common/util_texture.js"></script>
+    <script type="text/javascript" src="../common/util_render2d.js"></script>
+    <script type="text/javascript" src="../common/util_debugstr.js"></script>
+    <script type="text/javascript" src="../common/util_pmeter.js"></script>
+
+    <script type="text/javascript" src="render_facemesh.js"></script>
+    <script type="text/javascript" src="webgl_main.js"></script>
+</head>
+
+<!------------------------------------------------------------------
+        B O D Y
+  ------------------------------------------------------------------>
+<body onload="startWebGL();">
+
+
+    <center>
+    <h1>This page has been obsoleted. </h1>
+    <h2>Please jump to <a href="../face_landmark/">FaceSwap based on face-landmarks-detection</a>.</h2><br>
+    </center>
+
+    <hr><hr>
+
+    <h1>Facemesh</h1>
+
+    <div id="loading">
+      <div class="spinner"></div>
+    </div>
+
+    <center>
+    <canvas id="glcanvas" width="800" height="800"></canvas>
+    </center>
+
+    <h1>↑<br>Drop a face image to change the face mask.</h1>
+
+    <div id="debug_log"></div>
+</body>
+
+
+</html>
